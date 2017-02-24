@@ -54,3 +54,65 @@ nav ul li{
 .blog-posts img{
 	width: 300px;
 }
+<<<<<<< HEAD
+=======
+
+header, footer, main, section{
+	border: 1px solid blue;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+.carousel{
+	height: 700px;
+}
+
+#logo-image{
+	width: 70px;
+	height: 70px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+#logo-title, nav{
+	font-size: 25px;
+	display: inline-block;
+}
+
+nav ul li{
+	width: 100px;
+	border: 1px solid green;
+	margin: 10px;
+	display: inline-block;
+}
+
+.blog-posts article{
+	width: 300px;
+	border: 1px solid green;
+	margin: 10px;
+	display: inline-block;
+}
+
+.monthly-programmer article{
+	width: 300px;
+	border: 1px solid green;
+	margin: 10px;
+	display: inline-block;
+}
+
+.monthly-programmer img{
+	width: 100px;
+}
+
+.blog-posts img{
+	width: 300px;
+}
+
+footer div{
+	width: 300px;
+	border: 1px solid green;
+	margin: 10px;
+	display: inline-block;
+	display: inline-block;
+}
+>>>>>>> origin/master
