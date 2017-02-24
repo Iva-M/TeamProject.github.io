@@ -8,16 +8,20 @@ header, footer, main, section{
 	height: 700px;
 }
 
-.logo-image{
-	width: 30px;
-	height: 30px;
-	float: left;
+#logo-image{
+	width: 70px;
+	height: 70px;
 	margin-left: 20px;
 	display: inline-block;
 }
 
-nav {
-	width: 300px;
+#logo-title, nav{
+	font-size: 25px;
+	display: inline-block;
+}
+
+nav ul li{
+	width: 100px;
 	border: 1px solid green;
 	margin: 10px;
 	display: inline-block;
