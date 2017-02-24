@@ -1,8 +1,14 @@
+
+
 header, footer, main, section{
 	border: 1px solid blue;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
+}
+main header h1, h2{
+	text-shadow: pink 8px 8px 13px;
+
 }
 .carousel{
 	height: 700px;
