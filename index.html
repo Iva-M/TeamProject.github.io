@@ -5,8 +5,11 @@
 		<meta name="description" content="Сайт за запознанства за програмисти">
   		<meta name="author" content="отбор Hypori">
 		<title>Софт Цуни</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="styles/styles.css">
 		<link href="images/heart-icon.png" rel="shortcut icon" type="image/x-icon"/>
+		<!-- fonts -->
+		<link href="http://bg.allfont.net/allfont.css?fonts=andantino-script" rel="stylesheet" type="text/css" />
 		
 		<style>
 		.mySlides {display:none}
@@ -16,96 +19,254 @@
 	</head>
 	<body>
 
-		<header>
-			<a href="index.html">
-				<img id="logo-image" src="images/logo.png" alt="Logo Image">
-				<h1 id="logo-title">Софт Цуни</h1>
-			</a>
-			<nav>
+	<!--
+	<audio class="audio" controls autoplay>
+						<source src="music/George%20Michael%20-%20Careless%20Whisper%20(2).mp3" type="audio/mpeg">
+					</audio>
+	-->
+
+
+		</div>
+		<header class="header-website">
+			<nav class="nav-bar">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li> <!-- Why our site?,News,Services,Login -->
-					<li><a href="blog.html">Blog</a></li>
-					<li><a href="contacts.html">Contacts</a></li>
-					<li><a href="signup.html">Sign up/Log In</a></li>
+					<li class="logo-soft-cuni"><a href="index.html">
+					<img id="logo-image" src="images/software-university-logo.png" alt="Logo Image">
+					</a>
+					</li>
+					<li><a href="index.html">СофтЦуни</a></li>
+					<li><a href="about.html">Обучения</a></li> <!-- Why our site?,News,Services,Login -->
+					<li><a href="blog.html">Партньори</a></li>
+					<li><a href="contacts.html">Форум</a></li>
+					<li><a href="contacts.html">Блог</a></li>
+					<li><a href="signup.html">Контакти</a></li>
 				</ul>
 			</nav>
 		</header>
 		
 		<main>
-			<header>
-				<h1>Добре дошли в Софт Цуни!</h1>
-				<h2>Сайт за запознанства за програмисти</h2>
-			
+			<header class="header-main">
+
+					<li class="welcome">
+					<span class="moto">
+					Най-големия сайт за запознанства с програмисти!
+					</span>
+							<h1>Добре дошли в Софт Цуни!</h1>
+					</li>
+					<ul class="ul-hearts">
+						<li class="left-hearts">
+							<img src="images/Candle.gif" alt="" >
+							<img src="images/heart-animation3.gif" alt="">
+							<img src="images/heart-animation3.gif" alt="">
+							<img src="images/heart-animation3.gif" alt="">
+							<img src="images/heart-animation3.gif" alt="">
+							<img src="images/heart-animation3.gif" alt="">
+							<img src="images/heart-animation3.gif" alt="">
+							<img src="images/heart-animation3.gif" alt="">
+							<img src="images/heart-animation3.gif" alt="">
+							<img src="images/heart-animation3.gif" alt="">
+							<img src="images/heart-animation3.gif" alt="">
+							<img src="images/heart-animation3.gif" alt="">
+							<img src="images/heart-animation3.gif" alt="">
+							<img src="images/Candle.gif" alt="" >
+						</li>
+					</ul>
+
+
 			</header>
+
+			<div class="second-nav">
+				<p class="slogan">Срещни любовта!</p>
+
+				<ul class="sec-nav-list">
+					<li>
+						<a href="">Регистрация</a>
+						<span class="separator">
+							<img src="https://img.elmaz.com/style/img/separator.png" alt="">
+						</span>
+					</li>
+
+					<li>
+						<a href="">Търсене</a>
+						<span class="separator">
+							<img src="https://img.elmaz.com/style/img/separator.png" alt="">
+						</span>
+					</li>
+					<li>
+						<a href="">Забравена парола</a>
+						<span class="separator">
+							<img src="https://img.elmaz.com/style/img/separator.png" alt="">
+						</span>
+					</li>
+					<li>
+						<a href="">Помощ</a>
+						<span class="separator">
+							<img src="https://img.elmaz.com/style/img/separator.png" alt="">
+						</span>
+					</li>
+
+				</ul>
+			</div>
 			
 			<section class="carousel">
+
+
+				<img src="images/normal-wizard.png" alt="" id="normal-wizard-pic">
+				<img src="images/pink-wizard.png" alt="" id="pink-wizard-pic">
 				<div class="w3-content w3-display-container" style="max-width:800px">
-					<img class="mySlides" src="images/woman-typing-writing-windows.jpg" style="width:100%">
-					<img class="mySlides" src="images/startup-photos.jpg" style="width:100%">
-					<img class="mySlides" src="images/pexels-photo.jpg" style="width:100%">
 					<div class="w3-center w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
 						<div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
 						<div class="w3-right w3-padding-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+
 						<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
 						<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
 						<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
 					</div>
+
+					<img class="mySlides" src="images/woman-typing-writing-windows.jpg" style="width:100%">
+					<img class="mySlides" src="images/startup-photos.jpg" style="width:100%">
+					<img class="mySlides" src="images/pexels-photo.jpg" style="width:100%">
+
+
 				</div>
+
 
 				<script src="scripts/scripts.js"></script>
 			
 			</section>
-			
-			<section class="monthly-programmer">
-				<header>
-					<h1>Програмист на месеца!</h1>
-				</header>
-				
-				<article>
-					<img href="images/programmer.png">
-					<h1>Георги Георгиев</h1>
-					<p>Информация за програмиста</p>
-				</article>				
-				
-				<article>
-					<img href="images/programmer.png">
-					<h1>Димитър Димитров</h1>
-					<p>Информация за програмиста</p>
-				</article>				
-				
-				<article>
-					<img href="images/programmer.png">
-					<h1>Васил Василев</h1>
-					<p>Информация за програмиста</p>
-				</article>
-			</section>
-				
-			
-			
+
 			<section class="blog-posts">
+
 				<header>
-					<h1>От нашия блог</h1>
+					<div class="apell">
+						<h1>Търси в най-големия сайт за запознанства с програмисти в България</h1>
+					</div>
+
 				</header>
-				
-				<article>
-					<img href="images/bigstock-Set-of-Flat-Design-Icons-Mobi-61578074.jpg">
-					<h1>Блог пост 1</h1>
-					<p>Lorem Ipsum Dolor Lorem Ipsum text text text text text text text text text text text text text text text text text text text text text text text text text</p>
-				</article>				
-				
-				<article>
-					<img href="images/wd2016.jpg">
-					<h1>Блог пост 2</h1>
-					<p>Lorem Ipsum Dolor Lorem Ipsum text text text text text text text text text text text text text text text text text text text text text text text text text</p>
-				</article>				
-				
-				<article>
-					<img href="images/flat-design-office-desk-02-preview-o.jpg">
-					<h1>Блог пост 3</h1>
-					<p>Lorem Ipsum Dolor Lorem Ipsum text text text text text text text text text text text text text text text text text text text text text text text text text</p>
+
+				<article class="register-form">
+					<form action="post">
+						<label for="name" class="form-label">Име: </label>
+						<input type="text" id="name" class="form-input" placeholder="Enter name"><br>
+						<label for="name" class="form-label">Парола: </label>
+						<input type="text" id="password" class="form-input" placeholder="Enter password"><br>
+						<button class="enter-button"><a href="">Вход</a></button><br>
+						<span class="forgot-pass"><a href="">Забравена парола</a></span><br>
+
+						<button class="forgot-pass-button">
+							<i class="fa fa-facebook" aria-hidden="true" style="color: #fff"></i>
+							<a href="">
+							Login Facebook
+						</a>
+						</button>
+
+
+
+					</form>
+				</article>
+
+				<article class="search-box">
+					<form class="form-searching" action="post">
+						<label for="ganres" class="searching-label">Аз съм: </label>
+						<input list="ganres" id="ganre-list" class="search-input" name="ganre"><br>
+						<datalist id="ganres">
+							<option value="Мъж">
+							<option value="Жена">
+						</datalist>
+
+						<label for="ganres-searching" class="searching-label">Търся: </label>
+						<input list="ganres-searching" id="searching" class="search-input" name="ganre-searching"><br>
+						<datalist id="ganres-searching">
+							<option value="Мъж">
+							<option value="Жена">
+						</datalist>
+
+						<label for="country-searching" class="searching-label">Страна: </label>
+						<input list="country-searching" id="country-search" class="search-input" name="ganre-searching"><br>
+						<datalist id="country-searching">
+							<option value="България">
+							<option value="САЩ">
+							<option value="Европа">
+							<option value="Нова Зеландия">
+							<option value="Канада">
+						</datalist>
+
+						<label for="years-from" class="searching-label">Възраст от: </label>
+						<input list="years-from" class="search-input" name="years-search"><br>
+						<datalist id="years-from">
+							<option value="-">
+							<option value="18">
+							<option value="19">
+							<option value="20">
+							<option value="21">
+						</datalist>
+						<label for="years-to" class="searching-label">Възраст до: </label>
+						<input list="years-to" class="search-input" name="years-to"><br>
+						<datalist id="years-to">
+							<option value="-">
+							<option value="18">
+							<option value="19">
+							<option value="20">
+							<option value="21">
+						</datalist>
+						<span class="additional-info"><input type="checkbox" name="picture" value="yes">Снимка</span>
+						<span class="additional-info"><input type="checkbox" name="picture" value="yes">Само онлайн</span>
+
+
+						<button class="search-button"><a href="">Търси</a></button><br>
+
+
+					</form>
+				</article>
+
+				<article class="searching-cities">
+					<p class="cities">Градове</p>
+					<ul class="list-cities">
+						<li class="Sofia">
+							<a href="">Запознанства в София</a>
+						</li>
+						<li class="Varna">
+							<a href="">Запознанства в Варна</a>
+						</li>
+						<li class="Plovdiv">
+							<a href="">Запознанства в Пловдив</a>
+						</li>
+						<li class="Ruse">
+							<a href="">Запознанства в Русе</a>
+						</li>
+					</ul>
+
+
+
 				</article>
 			</section>
+
+			<section class="top-programmers">
+
+				
+				<article class="top-femina">
+					Top programmer Feminen
+				</article>				
+				
+				<article class="categories">
+					<ul>
+						Kategorii
+						<li>Galeria jeni - HTML</li>
+						<li>Galeria maje- C#</li>
+						<li>Spisuk jeni - Java</li>
+						<li>Spisak jeni - <php></php></li>
+
+					</ul>
+				</article>				
+				
+				<article class="top-masculin">
+					Top programer masculin
+				</article>
+			</section>
+				
+			
+			
+
 		
 		</main>
 		
