@@ -5,7 +5,7 @@ header, footer, main, section{
 	text-align: center;
 }
 
-.site-title h1, .site-title h2{
+main header h1, h2{
 	text-shadow: pink 8px 8px 13px;
 }
 
