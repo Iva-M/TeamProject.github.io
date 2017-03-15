@@ -70,11 +70,16 @@ body{
 .nav-bar ul li a{
 	text-decoration: none;
 	color: #ffffff;
+
+
 }
 
 .nav-bar ul li a:hover{
 	background: #fff;
 	color: #5a5c95;
+	transition: all 0.8s;
+
+
 }
 
 .logo-soft-cuni{
@@ -222,10 +227,15 @@ body{
 
 }
 #normal-wizard-pic{
+
 	width: 200px;
 	height: 200px;
 	float: left;
 	padding-left: 50px;
+}
+#normal-wizard-pic:hover{
+	transform: rotate(10deg);
+	transition: 0.8s;
 }
 #pink-wizard-pic{
 	width: 200px;
@@ -416,7 +426,8 @@ body{
 }
 
 /* top programmers */
-.top-programmers{
+	.top-programmers{
+
 
 	width: calc(100% - 100px);
 	background: -moz-linear-gradient(-45deg, rgba(30,87,153,1) 0%, rgba(224,121,179,0.98) 58%, rgba(224,121,179,0.96) 100%); /* FF3.6-15 */
@@ -429,7 +440,8 @@ body{
 	border-top-right-radius: 20px;
 	display:inline-block;
 	margin-left: 30px;
-	float: left;
+	float:left;
+
 	box-shadow: 3px 3px 5px pink;
 	background: #cb60b3; /* Old browsers */
 	background: -moz-linear-gradient(top, #cb60b3 0%, #c146a1 50%, #a80077 72%, #db36a4 100%); /* FF3.6-15 */
@@ -456,7 +468,7 @@ body{
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 	box-shadow: pink 3px 3px 5px;
-	width: 100px;
+	width: 75px;
 	height: 60px;
 
 }
@@ -479,9 +491,32 @@ body{
 	margin-right: 20px;
 }
 .categories{
-	border: solid green;
+	margin: 10px 0 10px 0;
 	display:inline-block;
 	width: 200px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	box-shadow: 6px 2px 10px pink;
+
+	background: #e02ce0; /* Old browsers */
+	background: -moz-linear-gradient(left, #e02ce0 0%, #dd2ada 37%, #259de8 74%, #6ba6c6 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #e02ce0 0%,#dd2ada 37%,#259de8 74%,#6ba6c6 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #e02ce0 0%,#dd2ada 37%,#259de8 74%,#6ba6c6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e02ce0', endColorstr='#6ba6c6',GradientType=1 ); /* IE6-9 */
+
+
+}
+.type-categories{
+	padding: 0;
+	font-family: "Times New Roman", sans-serif;
+	color:#ffffff;
+
+}
+.specific-categories{
+	display:inline-block;
+	margin:0 0 20px 0;
+	border-bottom: dashed thin pink;
+	text-shadow: 3px 3px 5px purple;
 }
 .categories .type-categories{
 	list-style: none;
@@ -490,7 +525,8 @@ body{
 
 .top-masculin{
 	display:inline-block;
-	float: right;
+
+
 	background: rgb(30,87,153); /* Old browsers */
 	background: -moz-linear-gradient(-45deg, rgba(30,87,153,1) 0%, rgba(41,137,216,1) 42%, rgba(32,124,202,1) 72%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 42%,rgba(32,124,202,1) 72%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
