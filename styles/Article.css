@@ -1,33 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Playball');
-
-article > img {
-    float: left;
-    border-radius: 10px;
-    margin-top: 140px;
-    margin-left: 15px;
-    display: block;
-    width: 50%;
-    height: auto;
-    box-shadow: 1px 1px 15px #ffffff;
-
-}
-.list-items > li {
-    margin-left: 780px;
-    padding: 12px;
-    letter-spacing: 2px;
-    font-family: 'Playball', cursive;
-    color: #ffffff;
-}
-main > article {
+main {
     background: #234465;
-    border: 3px solid #B72941;
-    border-radius: 15px;
 }
-article > h1 {
+h1 {
     font-family: 'Playball', cursive;
+    color: #E769FF;
     text-align: center;
-    color: #B72941;
-    text-shadow: 2px 2px 10px #ffffff;
-    text-decoration: underline;
+    text-shadow: 1px 1px 3px #ffffff;
+    padding: 20px;
+}
+.image {
+    width: 730px;
+    height: auto;
+    margin-left: 25px;
+    float: left;
+    padding: 20px;
+}
+ol > li {
+    color: #ffffff;
+    font-family: 'Playball', cursive;
+    letter-spacing: 3px;
+    list-style-position: inside;
+    margin: 0 auto;
     padding: 10px;
+    text-shadow: 1px 1px 3px #E769FF;
+
+}
+ol > li::first-letter {
+    font-size: 23px;
+    text-shadow: 1px 1px 3px #E769FF;
 }
