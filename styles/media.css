@@ -1,0 +1,12 @@
+@media all and (max-width: 640px){
+    .nav-bar li {
+        display:block;
+        width: 100%;
+    }
+}
+@media all and (max-width: 320px){
+    .nav-bar li {
+        display:block;
+        width: 100%;
+    }
+}

@@ -8,8 +8,10 @@ header, footer, main, section{
 }
 body{
 	margin: 0 auto;
-	font-family: 'Andantino script', arial;
+	
 	font-weight: bold;
+	background-image: url("images/valentine-background.jpg");
+	
 
 
 }
@@ -72,7 +74,7 @@ body{
 .nav-bar ul li a{
 	text-decoration: none;
 	color: #ffffff;
-
+font-size: 1em;
 
 }
 
@@ -119,8 +121,10 @@ body{
 .welcome{
 	display:block;
 	margin: 0 auto;
+	font-family: "Comic Sans MS";
 }
 .welcome h1{
+	font-family: "Comic Sans MS";
 	display:inline-block;
 	color: #fff;
 
@@ -158,7 +162,7 @@ body{
 }
 /* second nav */
 .second-nav{
-	height: 60px;
+	/*height: 60px;*/
 	width: calc(100% - 100px);
 	margin: 0 auto;
 	margin-bottom: 5px;
@@ -172,6 +176,7 @@ body{
 	
 }
 .sec-nav-list{
+	padding: 0;
 	float:right;
 	margin-right: 30px;
 }
@@ -181,12 +186,16 @@ body{
 	margin: 5px 0 0 15px;
 	font-size: 30px;
 	text-shadow: 3px 5px 5px purple;
-
+	font-family: "Comic Sans MS";
 	color: #febbbb; /* Old browsers */
 
 	letter-spacing: 10px;
 }
-
+.second-nav::after{
+	content: "";
+	display: block;
+	clear: both;
+}
 .slogan:hover{
 	text-shadow: 3px 5px 5px purple;
 	cursor: pointer;
@@ -195,7 +204,8 @@ body{
 }
 
 .sec-nav-list li{
-	font-size: 25px;
+	font-family: "Comic Sans MS";
+	font-size: 22px;
 	display:inline-block;
 	list-style: none;
 	margin: 0 auto;
@@ -218,33 +228,25 @@ body{
 	height: 25px;
 }
 /* carousel */
-.carousel{
-	
-	/*	background: -moz-linear-gradient(-45deg, rgba(30,87,153,1) 0%, rgba(224,121,179,0.98) 58%, rgba(224,121,179,0.96) 100%); /* FF3.6-15 */
-	/*	background: -webkit-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(224,121,179,0.98) 58%,rgba(224,121,179,0.96) 100%); /* Chrome10-25,Safari5.1-6 */
-	/*	background: linear-gradient(135deg, rgba(30,87,153,1) 0%,rgba(224,121,179,0.98) 58%,rgba(224,121,179,0.96) 100%); */
 
-	background: #5a5c95;
-	
-	margin:0 auto;
-	width: calc(100% - 100px);
-}
 .w3-content{
 
 	display:inline-block;
 
 	border-radius: 20px;
-	width: 500px;
+
 
 }
 .mySlides{
+
 	border-radius: 20px;
 	box-shadow: pink 3px 3px 25px;
+	display:inline-block;
 
 }
 .w3-section{
 
-	display: block;
+	display: inline-block;
 }
 .w3-left, .w3-right{
 	display:inline-block;
@@ -258,10 +260,10 @@ body{
 }
 #normal-wizard-pic{
 
-	width: 200px;
-	height: 200px;
+	width: 100%; max-width: 150px;
+	height: auto;
 	float: left;
-	padding-left: 50px;
+	margin-left: 50px;
 }
 #normal-wizard-pic:hover{
 	transform: rotate(10deg);
@@ -269,10 +271,10 @@ body{
 	cursor: pointer;
 }
 #pink-wizard-pic{
-	width: 200px;
-	height: 200px;
+	width: 100%; max-width: 150px;
+	height: auto;
 	float: right;
-	padding-right: 50px;
+	margin-right: 50px;
 }
 #pink-wizard-pic:hover{;
 	transition:0.8s;
@@ -294,6 +296,8 @@ body{
 }
 /* Търси в най-големия сайт за запознанства в България */
 .blog-posts{
+
+	height: auto;
 	width: calc(100% - 100px);
 	
 	/*	background: -moz-linear-gradient(-45deg, rgba(30,87,153,1) 0%, rgba(224,121,179,0.98) 58%, rgba(224,121,179,0.96) 100%); /* FF3.6-15 */
@@ -309,7 +313,7 @@ body{
 	border-radius: 20px;
 }
 .blog-posts header h1{
-
+	font-family: "Comic Sans MS";
 	text-shadow: 3px 3px 10px purple;
 	color: #fff;
 	margin:0 10px 0 10px;
@@ -590,7 +594,7 @@ body{
 }
 .type-categories{
 	padding: 0;
-	font-family: "Comic Sans MS";
+	font-family: "Comic Sans MS", serif;
 	color:#ffffff;
 
 }
@@ -744,6 +748,7 @@ footer .footer-container div{
 	margin: 5px;
 	border-radius: 10%;
 }
+
 
 
 
