@@ -6,30 +6,30 @@ header, footer, main, section{
 	padding: 0;
 	text-align: center;
 }
+
 body{
 	margin: 0 auto;
 	font-family: 'Andantino script', arial;
 	font-weight: bold;
-
-
 }
 
 /* Things in header */
 .audio{
 	float:right;
 }
+
 .logo-soft-cuni{
 	display:inline-block;
 	float: left;
 	margin: 27px 0 15px 25px;
 
 }
+
 .logo-soft-cuni #logo-image{
 	width: 200px;
 	height: 42px;
 	margin: 0;
 }
-
 
 .header-website{
 	width: calc(100% - 100px);
@@ -63,7 +63,6 @@ body{
 .nav-bar ul li{
 	margin-top: 20px;
 	margin-right: 10px;
-	border: 1px solid green;
 	font-size: 35px;
 	display: inline-block;
 	list-style: none;
@@ -72,16 +71,11 @@ body{
 .nav-bar ul li a{
 	text-decoration: none;
 	color: #ffffff;
-
-
 }
 
 .nav-bar ul li a:hover{
-	background: #fff;
-	color: #5a5c95;
+	color: #e079b3;
 	transition: all 0.8s;
-
-
 }
 
 .logo-soft-cuni{
