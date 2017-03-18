@@ -18,7 +18,7 @@ h1 {
     text-align: center;
     text-shadow: 1px 1px 3px #E769FF;
 }
-main {
+html {
     background: #234465;
 }
 main > section > article {
