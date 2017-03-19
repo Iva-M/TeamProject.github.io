@@ -91,7 +91,6 @@ body{
 /* Main */
 
 main{
-
 	margin: 0 auto;
 	width: calc(100% - 100px);
 	
@@ -101,7 +100,6 @@ main{
 	/*	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#f5e079b3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	
 	background: #234465;
-
 }
 
 h1 {
@@ -125,35 +123,42 @@ h1 {
     text-shadow: 1px 1px 3px #E769FF;
 }
 
-main article {
+.container{
+	margin: 0 auto;
+	width:100%;
+    text-align:center;
+}
+
+article {
     display: inline-block;
-    width: calc(30% - 10px);
+    width: 30%;
+	min-width: 200px;
     font-family: 'Playball', cursive;
     margin: 70px 10px 10px 10px;
+	text-align: center;
+	vertical-align: top;
 }
 
 .image {
-    width: 330px;
-    height: 330px;
+    max-width: 80%;
+    height: auto;
     border: 4px solid #E769FF;
     box-shadow: 1px 1px 10px #ffffff;
 }
 
 article > p {
+	margin: 10px;
     color: #ffffff;
-    width: 300px;
-    height: 300px;
     letter-spacing: 2px;
+	word-wrap: break-word;
 }
 
 h2 {
-    width: 305px;
-    text-shadow: 1px 1px 3px #ffffff;
-}
-
-h2 {
-    color: #E769FF;
+	margin: 10px;
+	color: #E769FF;
     letter-spacing: 4px;
+    text-shadow: 1px 1px 3px #ffffff;
+	word-wrap: break-word;
 }
 
 p::first-letter {

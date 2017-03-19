@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Playball');
 
-header, footer, main, section{
+header, footer, main, article{
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
@@ -95,7 +95,6 @@ body{
 /* Main */
 
 main{
-
 	margin: 0 auto;
 	width: calc(100% - 100px);
 	
@@ -117,7 +116,7 @@ h1 {
 }
 
 .image {
-    width: 730px;
+    width: 60%;
     height: auto;
     margin-left: 25px;
     float: left;
