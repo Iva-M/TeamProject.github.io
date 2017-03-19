@@ -44,20 +44,24 @@ body{
 	background: #5a5c95;
 
 }
+
 #logo-image{
 	width: 70px;
 	height: 70px;
 	margin-left: 20px;
 	display: inline-block;
 }
+
 #logo-title, nav{
 	font-size: 25px;
 	display: inline-block;
 }
+
 .nav-bar ul{
 	margin: 10px;
 	padding: 0;
 }
+
 .nav-bar ul li{
 	margin-top: 20px;
 	margin-right: 10px;
@@ -111,6 +115,7 @@ h1 {
     text-shadow: 1px 1px 3px #ffffff;
     padding: 20px;
 }
+
 .image {
     width: 730px;
     height: auto;
@@ -118,6 +123,7 @@ h1 {
     float: left;
     padding: 20px;
 }
+
 ol > li {
     color: #ffffff;
     font-family: 'Playball', cursive;
@@ -126,8 +132,8 @@ ol > li {
     margin: 0 auto;
     padding: 10px;
     text-shadow: 1px 1px 3px #E769FF;
-
 }
+
 ol > li::first-letter {
     font-size: 23px;
     text-shadow: 1px 1px 3px #E769FF;

@@ -1,4 +1,108 @@
 @import url('https://fonts.googleapis.com/css?family=Playball');
+header, footer, main, section{
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+body{
+	margin: 0 auto;
+	font-family: 'Andantino script', arial;
+	font-weight: bold;
+}
+
+.audio{
+	float:right;
+}
+
+.logo-soft-cuni{
+	display:inline-block;
+	float: left;
+	margin: 27px 0 15px 25px;
+}
+
+.logo-soft-cuni #logo-image{
+	width: 200px;
+	height: 42px;
+	margin: 0;
+}
+
+
+.header-website{
+	width: calc(100% - 100px);
+	margin: 0 auto;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	margin-bottom: 10px;
+
+	/*
+	background: -moz-linear-gradient(-45deg, rgba(30,87,153,1) 0%, rgba(224,121,179,0.98) 58%, rgba(224,121,179,0.96) 100%); /* FF3.6-15 */
+	/*	background: -webkit-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(224,121,179,0.98) 58%,rgba(224,121,179,0.96) 100%); /* Chrome10-25,Safari5.1-6 */
+	/*	background: linear-gradient(135deg, rgba(30,87,153,1) 0%,rgba(224,121,179,0.98) 58%,rgba(224,121,179,0.96) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	/*	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#f5e079b3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background: #5a5c95;
+
+}
+
+#logo-image{
+	width: 70px;
+	height: 70px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+#logo-title, nav{
+	font-size: 25px;
+	display: inline-block;
+}
+
+.nav-bar ul{
+	margin: 10px;
+	padding: 0;
+}
+
+.nav-bar ul li{
+	margin-top: 20px;
+	margin-right: 10px;
+	font-size: 35px;
+	display: inline-block;
+	list-style: none;
+}
+
+.nav-bar ul li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.nav-bar ul li a:hover{
+	color: #e079b3;
+	transition: all 0.8s;
+}
+
+.logo-soft-cuni{
+	margin-right: 15px;
+}
+
+/* media querys for header-nav <- to become responsible */
+@media screen and(max-width: 900px){
+	.nav-bar{display:block;}
+}
+
+/* Main */
+
+main{
+
+	margin: 0 auto;
+	width: calc(100% - 100px);
+	
+	/*	background: -moz-linear-gradient(-45deg, rgba(30,87,153,1) 0%, rgba(224,121,179,0.98) 58%, rgba(224,121,179,0.96) 100%); /* FF3.6-15 */
+	/*	background: -webkit-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(224,121,179,0.98) 58%,rgba(224,121,179,0.96) 100%); /* Chrome10-25,Safari5.1-6 */
+	/*	background: linear-gradient(135deg, rgba(30,87,153,1) 0%,rgba(224,121,179,0.98) 58%,rgba(224,121,179,0.96) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	/*	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#f5e079b3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	
+	background: #234465;
+
+}
 
 h1 {
     text-align: center;
@@ -7,54 +111,51 @@ h1 {
     text-shadow: 2px 2px 5px #ffffff;
     font-size: 50px;
     letter-spacing: 3px;
+	padding-top: 10px;
 }
+
 #paragraph {
     font-family: 'Playball', cursive;
     font-size: 25px;
     color: #ffffff;
-    margin: 0 auto;
-    padding: 7px;
+    margin: 10px;
+	padding: 7px;
     letter-spacing: 2px;
     text-align: center;
     text-shadow: 1px 1px 3px #E769FF;
 }
-html {
-    background: #234465;
-}
-main > section > article {
+
+main article {
     display: inline-block;
     width: calc(30% - 10px);
     font-family: 'Playball', cursive;
-    margin: 0 auto;
+    margin: 70px 10px 10px 10px;
 }
+
 .image {
     width: 330px;
-    margin-top: 100px;
     height: 330px;
-    margin-left: 25px;
     border: 4px solid #E769FF;
     box-shadow: 1px 1px 10px #ffffff;
 }
+
 article > p {
     color: #ffffff;
     width: 300px;
     height: 300px;
-    margin-left: 60px;
     letter-spacing: 2px;
 }
+
 h2 {
     width: 305px;
     text-shadow: 1px 1px 3px #ffffff;
 }
+
 h2 {
     color: #E769FF;
-    margin-left: 55px;
     letter-spacing: 4px;
 }
-section {
-    margin-left: 160px;
-    width: 1300px;
-}
+
 p::first-letter {
     font-size: 30px;
 }
