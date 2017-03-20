@@ -11,8 +11,7 @@ body{
 	margin: 0 auto;
 	
 	font-weight: bold;
-<<<<<<< HEAD
-	background-image: url("images/valentine-background.jpg");
+
 	
 
 
@@ -78,7 +77,7 @@ body{
 .nav-bar ul li a{
 	text-decoration: none;
 	color: #ffffff;
-<<<<<<< HEAD
+
 font-size: 1em;
 
 =======
@@ -262,17 +261,18 @@ font-size: 1em;
 	height: 25px;
 
 }
-#normal-wizard-pic{
-
-	width: 100%; max-width: 150px;
+.first-wizard-div{
+	display: inline-block;
+	width: 150px;
 	height: auto;
 	float: left;
-	margin-left: 50px;
+	margin: 80px 0 0 50px;
 }
-#normal-wizard-pic:hover{
+#first-wizard-div:hover{
 	transform: rotate(10deg);
 	transition: 0.8s;
 	cursor: pointer;
+
 }
 #pink-wizard-pic{
 	width: 100%; max-width: 150px;
@@ -289,6 +289,8 @@ font-size: 1em;
 
 
 .blog-posts article{
+
+
 	width: 200px;
 	border: 1px solid green;
 	margin: 10px;
@@ -377,7 +379,9 @@ font-size: 1em;
 }
 
 .blog-posts img{
-	width: 300px;
+	width: 180px;
+
+	float:left;
 }
 .forgot-pass{
 	border-bottom: dashed thin darkviolet;
