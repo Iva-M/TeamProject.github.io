@@ -162,7 +162,7 @@ h2 {
 	word-wrap: break-word;
 }
 
-p::first-letter {
+article>p::first-letter {
     font-size: 30px;
 }
 
@@ -184,6 +184,7 @@ footer .footer-container>div{
 }
 
 .copyrigth p{
+	font-family: "Comic Sans MS", serif;
 	font-size: 15px;
 	color: #fff;
 }
@@ -197,6 +198,7 @@ footer .footer-container>div{
 .sitemap{
 	border-left: 1px solid white;
 	border-right:1px solid white;
+	text-align: center;
 }
 
 .sitemap ul{
@@ -206,7 +208,8 @@ footer .footer-container>div{
 }
 
 .sitemap ul li{
-	width: 30%;
+	font-family: "Comic Sans MS", serif;
+	width: 31%;
 	min-width: 70px;
 	margin: 2px;
 	/*border: 1px solid green;*/
