@@ -93,6 +93,7 @@ body{
 main{
 	margin: 0 auto;
 	width: calc(100% - 100px);
+	margin-bottom: 10px;
 	
 	/*	background: -moz-linear-gradient(-45deg, rgba(30,87,153,1) 0%, rgba(224,121,179,0.98) 58%, rgba(224,121,179,0.96) 100%); /* FF3.6-15 */
 	/*	background: -webkit-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(224,121,179,0.98) 58%,rgba(224,121,179,0.96) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -163,4 +164,166 @@ h2 {
 
 p::first-letter {
     font-size: 30px;
+}
+
+/* Footer */
+
+footer{
+	width: calc(100% - 100px);
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	background: #5a5c95;
+}
+
+footer .footer-container>div{
+	width: 30%;
+	min-width: 200px;
+	/*border: 1px solid green;*/
+	display: inline-block;
+	vertical-align: top;
+}
+
+.copyrigth p{
+	font-size: 15px;
+	color: #fff;
+}
+
+.copyrigth a{
+	font-style: italic;
+	text-decoration: none;
+	color: #fff;
+}
+
+.sitemap{
+	border-left: 1px solid white;
+	border-right:1px solid white;
+}
+
+.sitemap ul{
+	margin: 0 auto;
+	padding: 10px;
+	text-align: left;
+}
+
+.sitemap ul li{
+	width: 30%;
+	min-width: 70px;
+	margin: 2px;
+	/*border: 1px solid green;*/
+	font-size: 15px;
+	display: inline-block;
+	list-style: none;
+	word-wrap: break-word;
+	vertical-align: top;
+}
+
+.sitemap ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.sitemap ul li a:hover{
+	color: #e079b3;
+}
+/*
+.social-links{
+	padding-top: 30px;
+}
+
+.social-links img{
+	width: 30px;
+	margin: 5px;
+	border-radius: 15%;
+}*/
+
+.social-links{
+	margin: 0 auto;
+	padding: 0;
+	background: #fff;
+}
+
+.social-links>div{
+	margin: 0 auto;
+	display: block;
+	text-align: left;
+}
+
+#like-us{
+	font-family: Tahoma,sans-serif;
+	font-size: 12px;
+	padding: 7px;
+	color: #323232;
+	background: #ECEEF3;
+}
+
+#fb-link{
+	height: 70px;
+	border: 1px solid #d7dee9;
+	padding: 10px;
+}
+
+#fb-link #fb-page-img{
+	float: left;
+	width: 70px;
+}
+
+#fb-link>#fb-page-link{
+	width: 70%;
+	display: inline-block;
+	margin-left: 7px;
+	font-family: Tahoma,sans-serif; 
+	font-size: 14px;
+	color: #3B5997;
+	text-decoration: none;
+}
+
+#fb-link>#like{
+	border: 1px solid #C9D3E6;
+	border-radius: 10%;
+	margin-top: 7px;
+	margin-left: 7px;
+	display: inline-block;
+	text-decoration: none;
+	width: 40px;
+	padding: 3px 10px 3px 10px;
+	background: #EBEDF4;
+	font-size: 12px;
+	font-family: Tahoma,sans-serif;
+	color: #3B5997;
+}
+
+#fb-link>#like:hover{
+	background: #3B5997;
+	color: #EBEDF4;
+}
+
+#people-liked>p{
+	font-family: Arial,sans-serif;
+	font-size: 12px;
+	color: #323232;
+	padding-left: 10px;
+}
+
+#people-liked>p>span{
+	font-family: Arial,sans-serif;
+	font-size: 12px;
+	color: #3B5997;
+}
+
+#people-liked img{
+	width: 60px;
+	height: 60px;
+	
+}
+
+#people-liked ul{
+	padding-left: 10px;
+	
+}
+
+#people-liked ul li{
+	width: 18%;
+	list-style: none;
+	display: inline-block;
+
 }
