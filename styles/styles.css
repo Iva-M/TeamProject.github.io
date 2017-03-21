@@ -1,7 +1,6 @@
 /* building the website system layout */
 
 header, footer, main, section{
-	border: 1px solid blue;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
@@ -41,12 +40,12 @@ body{
 	border-top-right-radius: 25px;
 	margin-bottom: 10px;
 
-	/*
+	
 	background: -moz-linear-gradient(-45deg, rgba(30,87,153,1) 0%, rgba(224,121,179,0.98) 58%, rgba(224,121,179,0.96) 100%); /* FF3.6-15 */
-	/*	background: -webkit-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(224,121,179,0.98) 58%,rgba(224,121,179,0.96) 100%); /* Chrome10-25,Safari5.1-6 */
-	/*	background: linear-gradient(135deg, rgba(30,87,153,1) 0%,rgba(224,121,179,0.98) 58%,rgba(224,121,179,0.96) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	/*	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#f5e079b3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-	background: #5a5c95;
+		background: -webkit-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(224,121,179,0.98) 58%,rgba(224,121,179,0.96) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(135deg, rgba(30,87,153,1) 0%,rgba(224,121,179,0.98) 58%,rgba(224,121,179,0.96) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#f5e079b3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	/*background: #5a5c95;*/
 
 }
 #logo-image{
@@ -89,6 +88,8 @@ body{
 	margin-right: 15px;
 }
 
+
+
 /* media querys for header-nav <- to become responsible */
 @media screen and(max-width: 900px){
 	.nav-bar{display:block;}
@@ -102,31 +103,98 @@ body{
 	margin-bottom: 5px;
 	width: calc(100% - 100px);
 	
-	/*	background: -moz-linear-gradient(-45deg, rgba(30,87,153,1) 0%, rgba(224,121,179,0.98) 58%, rgba(224,121,179,0.96) 100%); /* FF3.6-15 */
-	/*	background: -webkit-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(224,121,179,0.98) 58%,rgba(224,121,179,0.96) 100%); /* Chrome10-25,Safari5.1-6 */
-	/*	background: linear-gradient(135deg, rgba(30,87,153,1) 0%,rgba(224,121,179,0.98) 58%,rgba(224,121,179,0.96) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	/*	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#f5e079b3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		background: -moz-linear-gradient(-45deg, rgba(30,87,153,1) 0%, rgba(224,121,179,0.98) 58%, #e079b3 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(224,121,179,0.98) 58%,rgba(224,121,179,0.96) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(135deg, rgba(30,87,153,1) 0%,rgba(224,121,179,0.98) 58%,rgba(224,121,179,0.96) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#f5e079b3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	
-	background: #5a5c95;
+	/*background: #5a5c95;*/
+	z-index: 0;
+	position: relative;
+	top: 0;
+  	left: 0;
 
 }
+
+.image-slider img{
+	max-width: 100%;
+    height: auto;
+	z-index: 1;
+	position: relative;
+}
+
+/*@keyframes cf4FadeInOut {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+.image-slider #third{
+  animation-delay: 4s;
+}
+.image-slider #second{
+  animation-delay: 2s;
+}
+.image-slider #first{
+  animation-delay: 0;
+}*/
+
+.image-slider #first{
+	position: relative;
+	top: 0;
+  	left: 0;
+}
+
+.image-slider #second{
+	position: absolute;
+	top: 0;
+  	left: 0;
+}
+
+.image-slider #third{
+	position: absolute;
+	top: 0;
+  	left: 0;
+}
+
  /* Tук са трите дива с туптящите сърца */
 .ul-hearts{
 
 	list-style: none;
 	padding: 0;
 	margin:0 20px 0 20px;
+	z-index: 2;
 }
 .welcome{
 	display:block;
 	margin: 0 auto;
 	font-family: "Comic Sans MS";
+	z-index: 2;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top: 20%;
+	left: 0;
+	right: 0;
+	
 }
 .welcome h1{
 	font-family: "Comic Sans MS";
 	display:inline-block;
 	color: #fff;
-
 	text-shadow: 3px 3px 5px red;
 }
 .welcome h1:hover{
@@ -148,16 +216,23 @@ body{
 }
 .left-hearts{
 	margin: 0 0 0 15px;
-
+	z-index: 2;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top: 70%;
+	left: 0;
+	right: 0;
 
 }
 .left-hearts img{
-	width: 60px;
-	height: 60px;
+	max-width: 5%;
+	height: auto;
 
 }
 .left-hearts img:first-child, .left-hearts img:last-child {
-	height: 80px;
+	max-width: 5%;
+	height: auto;
 }
 /* second nav */
 .second-nav{
@@ -226,7 +301,7 @@ body{
 .separator img{
 	height: 25px;
 }
-/* carousel */
+/* carousel
 
 .w3-content{
 
@@ -256,7 +331,8 @@ body{
 	width: 25px;
 	height: 25px;
 
-}
+}*/
+
 #normal-wizard-pic{
 
 	width: 100%; max-width: 150px;
@@ -848,8 +924,8 @@ footer .footer-container>div{
 }
 
 #people-liked img{
-	width: 60px;
-	height: 60px;
+	max-width: 60px;
+    height: auto;
 	
 }
 
