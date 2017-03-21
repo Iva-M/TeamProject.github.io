@@ -1,0 +1,178 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Сайт за запознанства за програмисти">
+    <meta name="author" content="отбор Hypori">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/register.css">
+    <link href="images/heart-icon.png" rel="shortcut icon" type="image/x-icon"/>
+
+    <!-- fonts -->
+    <link href="http://bg.allfont.net/allfont.css?fonts=andantino-script" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <!-- fonts -->
+    <link rel="stylesheet" href="styles/media.css">
+</head>
+
+<body>
+	
+	<audio class="audio" controls autoplay>
+		<source src="music/George%20Michael%20-%20Careless%20Whisper%20(2).mp3" type="audio/mpeg">
+	</audio>
+
+
+	<header class="header-website">
+		<div class="logo-soft-cuni">
+			<img id="logo-image" src="images/software-university-logo.png" alt="Logo Image">
+		</div>
+
+		<nav class="nav-bar">
+			<ul>
+				<li><a href="courses.html">Обучения</a></li>
+				<li><a href="blog.html">Блог</a></li>
+				<li><a href="forum.html">Форум</a></li>
+				<li><a href="contacts.html">Контакти</a></li>
+				<li><a href="signup.html">Регистрация</a></li>
+				<li><a href="search.html">Търсене</a></li>
+			</ul>
+
+		</nav>
+	</header>
+	
+	<main>
+		<form action="index.html" method="post">
+
+			<h1>Регистрация</h1>
+
+			<fieldset>
+			  <legend><span class="number">1</span>Основна Информация</legend>
+			  <label for="name">Трите Имена:</label>
+			  <input type="text" id="name" name="user_name" placeholder="Георги Николов Петров">
+
+			  <label for="mail">Ел. поща:</label>
+			  <input type="email" id="mail" name="user_email" placeholder="g.petrov@gmail.com">
+
+			  <label for="password">Парола:</label>
+			  <input type="password" id="password" name="user_password">
+
+			  <label>Пол:</label>
+			  <input type="radio" id="man" value="man" name="user_gender"><label for="man" class="light">Мъж</label><br>
+			  <input type="radio" id="woman" value="woman" name="user_gender"><label for="woman" class="light">Жена</label>
+
+			</fieldset>
+
+			<fieldset>			
+			  <legend><span class="number">2</span>Вашият профил</legend>
+
+			  <label for="date">Дата на раждане:</label>
+			  <input type="date" id="date" name="startDate" placeholder="12-07-1981"><br>	
+
+			  <label for="bio">Биография:</label>
+			  <textarea id="bio" name="user_bio"></textarea>
+			</fieldset>
+			<fieldset>
+			<label for="job">Професия:</label>
+			<select id="job" name="user_job">
+			  <optgroup label="Web">
+				<option value="frontend_developer">Front-End Developer</option>
+				<option value="php_developor">PHP Developer</option>
+				<option value="python_developer">Python Developer</option>
+				<option value="rails_developer"> Rails Developer</option>
+				<option value="web_designer">Web Designer</option>
+				<option value="WordPress_developer">WordPress Developer</option>
+			  </optgroup>
+			  <optgroup label="Mobile">
+				<option value="Android_developer">Androild Developer</option>
+				<option value="iOS_developer">iOS Developer</option>
+				<option value="mobile_designer">Mobile Designer</option>
+			  </optgroup>
+			  <optgroup label="Business">
+				<option value="business_owner">Business Owner</option>
+				<option value="freelancer">Freelancer</option>
+			  </optgroup>
+			  <optgroup label="Other">
+				<option value="secretary">Secretary</option>
+				<option value="maintenance">Maintenance</option>
+			  </optgroup>
+			</select>
+
+			  <label>Интереси:</label>
+			  <input type="checkbox" id="CSharp" value="interest_CSharp" name="user_interest"><label class="light" for="CSharp">C#</label><br>
+				<input type="checkbox" id="Java" value="interest_Java" name="user_interest"><label class="light" for="Java">Java</label><br>
+			  <input type="checkbox" id="PHP" value="interest_PHP" name="user_interest"><label class="light" for="PHP">PHP</label><br>
+			  <input type="checkbox" id="JavaScript" value="interest_JavaScript" name="user_JavaScript"><label class="light" for="JavaScript">JavaScript</label>
+
+			</fieldset>
+			<button type="submit">Регистрация</button>
+		  </form>
+		
+	</main>
+	
+	<footer>
+		<div class="footer-container">
+
+			<div class="copyrigth">
+				<p>Copyright &copy; 2017 by Hypori. All Rights Reserved.</p>
+				<p><a href="other%2520files/website-terms-and-conditions.doc">Terms of service</a></p>
+				<p><a href="other%2520files/Privacy%20Policy%20Template.docx">Privacy Policy</a></p>
+			</div>
+
+			<div class="sitemap">
+				<ul>
+					<li><a href="index.html">СофтЦуни</a></li>
+					<li><a href="about.html">Обучения</a></li>
+					<li><a href="blog.html">Партньори</a></li>
+					<li><a href="contacts.html">Форум</a></li>
+					<li><a href="contacts.html">Блог</a></li>
+					<li><a href="signup.html">Контакти</a></li>
+					<li><a href="signup.html">Търсене</a></li>
+					<li><a href="signup.html">Регистрация</a></li>
+					<li><a href="signup.html">Категории</a></li>
+					<li><a href="signup.html">Топ Програмист</a></li>
+					<li><a href="signup.html">Топ Програмистка</a></li>
+
+				</ul>
+			</div>
+
+			<div class="social-links">
+				<!--<a href="facebook.com"><img src="images/facebook-icon.png" alt="facebook"></a>
+				<a href="twitter.com"><img src="images/twitter-icon.png" alt="facebook"></a>
+				<a href="plus.google.com"><img src="images/google-plus-icon.png" alt="facebook"></a>
+			</div>-->
+
+				<div id="like-us">
+					Харесайте страницата ни във Facebook!
+				</div>
+				<div id="fb-link">
+					<img id="fb-page-img" src="images/fb%20page%20image.jpg">
+					<a id="fb-page-link" href="#">Софт Цуни</a>
+					<a id="like" href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i>
+	Like</a>
+				</div>
+				<div id="people-liked">
+					<p>2,500 хора харесват <span>Софт Цуни</span></p>
+					<ul>
+						<li><a href="#"><img src="images/Girl1.png"></a></li>
+						<li><a href="#"><img src="images/Nakov.jpg"></a></li>
+						<li><a href="#"><img src="images/dizainer-softuni.png"></a></li>
+						<li><a href="#"><img src="images/flat-design-office-desk-02-preview-o.jpg"></a></li>
+						<li><a href="#"><img src="images/pexels-photo-331206.jpeg"></a></li>
+						<li><a href="#"><img src="images/startup-photos.jpg"></a></li>
+						<li><a href="#"><img src="images/man-python.jpg"></a></li>
+						<li><a href="#"><img src="images/woman-typing-writing-windows.jpg"></a></li>
+						<li><a href="#"><img src="images/man-java.jpg"></a></li>
+						<li><a href="#"><img src="images/pexels-photo-281706.jpeg"></a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	
+</body>
+
+</html>
